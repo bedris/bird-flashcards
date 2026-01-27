@@ -1,3 +1,6 @@
+/* --------------------
+   Body
+-------------------- */
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
   background: #f4f6f8;
@@ -11,7 +14,6 @@ body {
 /* --------------------
    Card layout
 -------------------- */
-
 .card-container {
   perspective: 1000px;
 }
@@ -54,9 +56,8 @@ body {
 }
 
 /* --------------------
-   Front of card
+   Play button
 -------------------- */
-
 .play-btn {
   font-size: 64px;
   border: none;
@@ -65,13 +66,61 @@ body {
 }
 
 /* --------------------
-   Back of card
+   Bird photo
 -------------------- */
-
 .card-back img {
   width: 100%;
   height: 240px;
   object-fit: cover;
   border-radius: 12px;
   transform: translateZ(0);
-  -webkit-transform: translateZ(0)
+  -webkit-transform: translateZ(0);
+  backface-visibility: visible;
+}
+
+/* --------------------
+   Bird name
+-------------------- */
+.bird-name {
+  font-size: 22px;
+  font-weight: 600;
+  margin-top: 12px;
+}
+
+/* --------------------
+   Controls
+-------------------- */
+.controls {
+  margin-top: 16px;
+  display: flex;
+  gap: 12px;
+}
+
+button.small {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.next {
+  background: #007aff;
+  color: white;
+}
+
+/* --------------------
+   Reveal behavior
+-------------------- */
+.card-back .bird-name,
+.card-back .controls {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.card-back.revealed .bird-name,
+.card-back.revealed .controls {
+  opacity: 1;
+  pointer-events: auto;
+}
