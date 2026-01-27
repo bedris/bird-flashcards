@@ -4,13 +4,13 @@
 const birds = [
   {
     name: "California Towhee",
-    image: "images/xCalifornia-Towhee.jpg",
-    audio: "audio/california-towhee.mp3"
+    image: "images/California-Towhee.jpg",
+    audio: "audio/California-Towhee.mp3"
   },
   {
     name: "Anna’s Hummingbird",
-    image: "images/anna-hummingbird.jpg",
-    audio: "audio/anna-hummingbird.mp3"
+    image: "images/Anna's-Hummingbird.jpg",
+    audio: "audio/Anna's-hummingbird.mp3"
   }
 ];
 
