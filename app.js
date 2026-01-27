@@ -9,8 +9,8 @@ const birds = [
   },
   {
     name: "Anna’s Hummingbird",
-    image: "images/Anna's-Hummingbird.jpg",
-    audio: "audio/Anna's-hummingbird.mp3"
+    image: "images/Annas-Hummingbird.jpg",
+    audio: "audio/Annas-hummingbird.mp3"
   }
 ];
 
