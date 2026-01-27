@@ -10,7 +10,7 @@ const birds = [
   {
     name: "Anna’s Hummingbird",
     image: "images/Annas-Hummingbird.jpg",
-    audio: "audio/Annas-hummingbird.mp3"
+    audio: "audio/Annas-Hummingbird.mp3"
   }
 ];
 
