@@ -8,10 +8,5 @@
     "name": "Anna’s Hummingbird",
     "image": "images/annas-hummingbird.jpg",
     "audio": "audio/annas-hummingbird.mp3"
-  },
-  {
-    "name": "Northern Mockingbird",
-    "image": "images/northern-mockingbird.jpg",
-    "audio": "audio/northern-mockingbird.mp3"
   }
 ]
