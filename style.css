@@ -3,15 +3,16 @@
 -------------------- */
 body {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
-  background: #e6f2ff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
+  background: #eaf4ee;
+  height: 100svh;
   margin: 0;
-   min-hight: 100svh;
-   overflow: hidden;
+  overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 
 /* --------------------
    Card layout
