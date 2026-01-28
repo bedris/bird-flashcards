@@ -35,6 +35,8 @@ body {
   transition: transform 0.6s;
   cursor: pointer;
   position: relative;
+  transform-origin: center center;
+  will-change: transform;
 }
 
 .card.flipped {
