@@ -9,6 +9,8 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+   min-hight: 100svh;
+   overflow: hidden;
 }
 
 /* --------------------
