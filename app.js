@@ -1,7 +1,6 @@
 /* --------------------------
    Bird Data
 -------------------------- */
-
 fetch("birds.json")
   .then(r => r.json())
   .then(data => birds = data);
