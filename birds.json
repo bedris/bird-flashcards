@@ -1,12 +1,12 @@
 [
   {
     "name": "California Towhee",
-    "image": "images/california-towhee.jpg",
-    "audio": "audio/california-towhee.mp3"
+    "image": "images/California-Towhee.jpg",
+    "audio": "audio/California-Towhee.mp3"
   },
   {
     "name": "Anna’s Hummingbird",
-    "image": "images/annas-hummingbird.jpg",
-    "audio": "audio/annas-hummingbird.mp3"
+    "image": "images/Annas-Hummingbird.jpg",
+    "audio": "audio/Annas-Hummingbird.mp3"
   }
 ]
