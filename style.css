@@ -15,6 +15,13 @@ body {
    Card layout
 -------------------- */
 .card-container {
+   .card-wrapper {
+     width: 320px;
+     height: 420px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   }
   perspective: 1000px;
 }
 
