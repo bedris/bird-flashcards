@@ -1,18 +1,10 @@
 /* --------------------------
    Bird Data
 -------------------------- */
-const birds = [
-  {
-    name: "California Towhee",
-    image: "images/California-Towhee.jpg",
-    audio: "audio/California-Towhee.mp3"
-  },
-  {
-    name: "Anna’s Hummingbird",
-    image: "images/Annas-Hummingbird.jpg",
-    audio: "audio/Annas-Hummingbird.mp3"
-  }
-];
+
+fetch("birds.json")
+  .then(r => r.json())
+  .then(data => birds = data);
 
 /* --------------------------
    DOM References
