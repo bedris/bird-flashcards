@@ -1,0 +1,17 @@
+const birds = [
+  {
+    name: "California Towhee",
+    image: "images/california-towhee.jpg",
+    audio: "audio/california-towhee.mp3"
+  },
+  {
+    name: "Anna’s Hummingbird",
+    image: "images/annas-hummingbird.jpg",
+    audio: "audio/annas-hummingbird.mp3"
+  },
+  {
+    name: "Northern Mockingbird",
+    image: "images/northern-mockingbird.jpg",
+    audio: "audio/northern-mockingbird.mp3"
+  }
+];
