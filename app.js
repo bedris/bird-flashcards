@@ -14,6 +14,7 @@ const cardBack = document.getElementById("cardBack");
 const audio = document.getElementById("audio");
 const birdImage = document.getElementById("birdImage");
 const birdName = document.getElementById("birdName");
+const playBtn = document.getElementById("playBtn");
 
 audio.preload = "auto";
 
@@ -24,6 +25,7 @@ function loadRandomBird() {
   if (birds.length === 0) return;
 
   // Reset card state
+  playBtn.textContent = "▶️";
   card.classList.remove("flipped");
   cardBack.classList.remove("revealed");
   revealed = false;
@@ -53,12 +55,23 @@ function loadRandomBird() {
 -------------------------- */
 
 // Play button
-document.getElementById("playBtn").addEventListener("click", (e) => {
+playBtn.addEventListener("click", (e) => {
   e.stopPropagation();
-  audio.currentTime = 0;
-  audio.play().catch(err => {
-    console.error("Audio play failed:", err);
-  });
+
+  if (audio.paused) {
+    audio.play().then(() => {
+      playBtn.textContent = "⏸";
+    }).catch(err => {
+      console.error("Audio play failed:", err);
+    });
+  } else {
+    audio.pause();
+    playBtn.textContent = "▶️";
+  }
+});
+
+audio.addEventListener("ended", () => {
+  playBtn.textContent = "▶️";
 });
 
 // Card click: front → back → reveal name
