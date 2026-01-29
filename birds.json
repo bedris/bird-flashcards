@@ -1,12 +1,18 @@
 [
   {
     "name": "California Towhee",
-    "image": "images/California-Towhee.jpg",
-    "audio": "audio/California-Towhee.mp3"
+    "image": "images/california-towhee.jpg",
+    "audio": "audio/california-towhee.mp3"
   },
   {
     "name": "Anna’s Hummingbird",
-    "image": "images/Annas-Hummingbird.jpg",
-    "audio": "audio/Annas-Hummingbird.mp3"
+    "image": "images/annas-hummingbird.jpg",
+    "audio": "audio/annas-hummingbird.mp3"
+  },
+  {
+    "name": "Greater Roadrunner",
+    "image": "images/greater-roadrunner.jpg",
+    "audio": "audio/greater-roadrunner.mp3"
   }
 ]
+
