@@ -158,3 +158,23 @@ button.small {
   opacity: 1;
   pointer-events: auto;
 }
+
+/* --------------------
+   App title
+-------------------- */
+.app-title {
+  position: absolute;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+
+  margin: 0;
+  font-size: 22px;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+
+  color: #2f4f3e; /* soft nature green */
+  text-align: center;
+  pointer-events: none; /* prevents accidental taps */
+}
+
