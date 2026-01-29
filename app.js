@@ -79,7 +79,16 @@ card.addEventListener("click", () => {
 // Next Bird button
 document.getElementById("nextBtn").addEventListener("click", (e) => {
   e.stopPropagation();
-  loadRandomBird();
+
+  // Step 1: flip back to front
+  card.classList.remove("flipped");
+  cardBack.classList.remove("revealed");
+  revealed = false;
+
+  // Step 2: after flip animation completes, load next bird
+  setTimeout(() => {
+    loadRandomBird();
+  }, 600); // must match CSS transition duration
 });
 
 /* --------------------------
