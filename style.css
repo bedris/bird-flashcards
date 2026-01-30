@@ -173,7 +173,7 @@ button.small {
   font-weight: 600;
   letter-spacing: 0.3px;
 
-  color: #000000; /* soft nature green */
+  color: #111111;
   /* color: #2f4f3e; soft nature green */
   text-align: center;
   pointer-events: none; /* prevents accidental taps */
