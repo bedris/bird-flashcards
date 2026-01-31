@@ -186,7 +186,7 @@ button.small {
 
 @media (prefers-color-scheme: dark) {
   .app-title {
-    color: #cfe8d6;
+    color: #111111;
   }
 }
 
